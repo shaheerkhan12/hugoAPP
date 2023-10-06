@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preload" href="{{ .Site.BaseURL}}css/page.css" as="style">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap" rel="stylesheet">
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+<meta name="author" content="{{ .Site.Params.author }}">
+<meta name="robots" content="index,follow">
+{{ template "_internal/twitter_cards.html" . }}
+{{ template "_internal/opengraph.html" . }}
+<title>{{ if .IsHome }}Home | {{ .Site.Author.name }}{{ else }}{{ .Title }} | {{ .Site.Author.name }}{{ end }}</title>
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="{{ .Site.BaseURL}}css/page.css">
+<link rel="stylesheet" href="{{ .Site.BaseURL}}css/custom.css">

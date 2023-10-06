@@ -1,0 +1,271 @@
+html {
+  font-family: Plus Jakarta Sans !important;
+}
+.custom-font {
+  color: #fff !important;
+
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 270% */
+}
+.custom-flex {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.Sign-in {
+  width: 23px;
+  margin-left: 8px;
+}
+.sub-menu {
+  display: inline-flex;
+  align-items: center;
+  gap: 70px;
+  font-size: 12px;
+  font-style: normal;
+  /* font-weight: 600; */
+  line-height: 27px;
+  text-transform: uppercase;
+}
+.selected-css {
+  color: var(--Orange, #f2994a) !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  border-bottom: 2px solid;
+  display: flex;
+}
+.button-color {
+  border-radius: 30px;
+  background: #f2994a !important;
+}
+.large-text {
+  color: var(--Blue-2, #2d9cdb);
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 62px;
+}
+.font-paragraph {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.bannerbackground {
+  border-radius: 5px;
+  background: var(--Orange, #f2994a);
+  width: 490px;
+  height: 509px;
+}
+.slim-banner {
+  height: 160px;
+  background: var(--Blue-2, #2d9cdb);
+}
+.bannersvg {
+  border-radius: 100px;
+  background: #fff;
+  width: 70px;
+  height: 70px;
+  padding: 25px 12px;
+  align-items: center;
+  display: flex;
+}
+.icon-background {
+  display: inline-flex;
+  height: 50px;
+  padding: 25px 12px;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  background: #2d9cdb;
+}
+.listitems {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  max-width: 530px;
+}
+.arrowright {
+  width: 18px;
+  height: 18px;
+  padding: 3.188px 5.813px;
+  justify-content: center;
+  align-items: center;
+}
+.inputfield {
+  display: flex;
+  width: 447px;
+  padding: 16px 103px 16px 16px;
+  align-items: flex-start;
+  gap: 20px;
+  border-left: transparent;
+  line-height: 28px;
+  font-size: 16px;
+}
+.subscribe-btn {
+  display: flex;
+  width: 447px;
+  padding: 18px 24px;
+  justify-content: center;
+  align-items: end;
+  gap: 8px;
+  flex-shrink: 0;
+  text-transform: uppercase;
+}
+.avatar-background {
+  width: 475px;
+  height: 528px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #f6f6f9;
+}
+.card-item {
+  width: 267px;
+  height: 259px;
+  flex-shrink: 0;
+  border-radius: 5.748px;
+  background: #fff;
+  box-shadow: -24.26623px 41.83833px 100.41197px 0px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 105px;
+  top: 180px;
+}
+.card-numbers {
+  font-size: 36.09px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 167.3%; /* 60.379px */
+  text-transform: capitalize;
+}
+.card-text {
+  font-size: 16.093px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 167.3%; /* 26.924px */
+  text-transform: capitalize;
+}
+.small-card-text {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+}
+.large-banner-forground {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(60, 54, 121, 0.28);
+  font-family: Plus Jakarta Sans;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 145px; /* 111.538% */
+  text-transform: uppercase;
+  position: absolute;
+}
+.circle {
+  width: 18vw;
+  height: 18vw;
+  max-width: 279px;
+  max-height: 17rem;
+  flex-shrink: 0;
+  border-radius: 279px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: column;
+}
+.circle-main {
+  display: flex;
+  justify-content: center;
+  margin-top: -130px;
+  z-index: 12;
+  position: relative;
+}
+
+.huge-text {
+  color: #fff;
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 100px; /* 100% */
+  text-transform: uppercase;
+}
+.circle p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  color: white;
+}
+.page-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 41px;
+}
+@media (max-width: 787px) {
+  .huge-text {
+    color: #fff;
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 41px; /* 100% */
+    text-transform: uppercase;
+  }
+  .circle {
+    width: 18vw;
+    height: 18vw;
+    max-width: 279px;
+    max-height: 17rem;
+    flex-shrink: 0;
+    border-radius: 279px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: column;
+  }
+  .large-banner-forground {
+    font-size: 30px;
+  }
+  .circle-main {
+
+    margin-top: -80px;
+
+  }
+  .careerday{
+    justify-content: center;
+  }
+  .bannersvg {
+    width: 50px;
+    height: 50px;
+  }
+  .services{
+    font-size: 15px !important;
+  }
+  .sub-menu {
+    gap:unset !important;
+    font-size: 11px;
+
+  }
+  .hidden{
+    display: none !important;
+  }
+  .inputfield {
+
+    width: unset !important;
+    
+  }
+  .subscribe-btn {
+    width: unset !important;
+
+  }
+}
